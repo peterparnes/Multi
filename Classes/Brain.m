@@ -28,7 +28,7 @@
 	return calculations;
 }
 
-#define UPTO 2
+#define UPTO 9
 
 - (void)setup {
 	int max = 2;
