@@ -1,5 +1,5 @@
 # Multi
-Simple multiplication training app for iOS 
+Simple multiplication training app for iOS. 
 
 I created this app in 2011 when learning to program iOS-apps. Nothing fancy and more of a training project. 
 
