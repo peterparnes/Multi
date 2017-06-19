@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MultAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MultAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		A90C36E01303D44B008741BB /* HighScoreAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90C36DE1303D44B008741BB /* HighScoreAddViewController.m */; };
+		A90C36E11303D44B008741BB /* HighScoreAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90C36DF1303D44B008741BB /* HighScoreAddViewController.xib */; };
+		A912294312FFFD1A00D44DBD /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = A912293912FFFD1A00D44DBD /* Brain.m */; };
+		A912294412FFFD1A00D44DBD /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = A912293B12FFFD1A00D44DBD /* Calculation.m */; };
+		A912294512FFFD1A00D44DBD /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A912293D12FFFD1A00D44DBD /* FrontViewController.m */; };
+		A912294612FFFD1A00D44DBD /* FrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A912293E12FFFD1A00D44DBD /* FrontViewController.xib */; };
+		A912294812FFFD1A00D44DBD /* TimeKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = A912294212FFFD1A00D44DBD /* TimeKeeper.m */; };
+		A912299E1300124C00D44DBD /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A912299C1300124C00D44DBD /* QViewController.m */; };
+		A912299F1300124C00D44DBD /* QViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A912299D1300124C00D44DBD /* QViewController.xib */; };
+		A91D77A1130C2A8B005490C5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A91D779A130C2A8B005490C5 /* Icon-72.png */; };
+		A91D77A2130C2A8B005490C5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A91D779B130C2A8B005490C5 /* Icon-Small-50.png */; };
+		A91D77A3130C2A8B005490C5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A91D779C130C2A8B005490C5 /* Icon-Small.png */; };
+		A91D77A4130C2A8B005490C5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91D779D130C2A8B005490C5 /* Icon-Small@2x.png */; };
+		A91D77A5130C2A8B005490C5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A91D779E130C2A8B005490C5 /* Icon.png */; };
+		A91D77A6130C2A8B005490C5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91D779F130C2A8B005490C5 /* Icon@2x.png */; };
+		A976C1E5130D2F68005ADD42 /* Multi.png in Resources */ = {isa = PBXBuildFile; fileRef = A976C1E3130D2F68005ADD42 /* Multi.png */; };
+		A976C1E6130D2F68005ADD42 /* Multi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A976C1E4130D2F68005ADD42 /* Multi@2x.png */; };
+		A980463D130D0AA2008191FE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980463C130D0AA2008191FE /* CFNetwork.framework */; };
+		A9804641130D0ABF008191FE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9804640130D0ABF008191FE /* libsqlite3.0.dylib */; };
+		A9875EF71EF6AEB400C3F016 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A9875EF61EF6AEB400C3F016 /* LaunchImage.png */; };
+		A9875EF91EF6AFC500C3F016 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9875EF81EF6AFC500C3F016 /* Media.xcassets */; };
+		A9A165901302E30B000E74AE /* HighScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A1658F1302E30B000E74AE /* HighScoreKeeper.m */; };
+		A9ACD9921302D3400008033C /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ACD9901302D3400008033C /* HighScoreViewController.m */; };
+		A9ACD9931302D3400008033C /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9ACD9911302D3400008033C /* HighScoreViewController.xib */; };
+		A9B6DC3C130D230B00DB8248 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A9B6DC3B130D230B00DB8248 /* iTunesArtwork */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MultAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MultAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Multi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Multi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multi_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Multi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Multi-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A90C36DD1303D44B008741BB /* HighScoreAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreAddViewController.h; sourceTree = "<group>"; };
+		A90C36DE1303D44B008741BB /* HighScoreAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreAddViewController.m; sourceTree = "<group>"; };
+		A90C36DF1303D44B008741BB /* HighScoreAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HighScoreAddViewController.xib; path = Classes/HighScoreAddViewController.xib; sourceTree = "<group>"; };
+		A912293812FFFD1A00D44DBD /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		A912293912FFFD1A00D44DBD /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
+		A912293A12FFFD1A00D44DBD /* Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculation.h; sourceTree = "<group>"; };
+		A912293B12FFFD1A00D44DBD /* Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculation.m; sourceTree = "<group>"; };
+		A912293C12FFFD1A00D44DBD /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		A912293D12FFFD1A00D44DBD /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		A912293E12FFFD1A00D44DBD /* FrontViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FrontViewController.xib; path = Classes/FrontViewController.xib; sourceTree = "<group>"; };
+		A912294112FFFD1A00D44DBD /* TimeKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeKeeper.h; sourceTree = "<group>"; };
+		A912294212FFFD1A00D44DBD /* TimeKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeKeeper.m; sourceTree = "<group>"; };
+		A912299B1300124C00D44DBD /* QViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		A912299C1300124C00D44DBD /* QViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
+		A912299D1300124C00D44DBD /* QViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QViewController.xib; path = Classes/QViewController.xib; sourceTree = "<group>"; };
+		A91D779A130C2A8B005490C5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A91D779B130C2A8B005490C5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A91D779C130C2A8B005490C5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A91D779D130C2A8B005490C5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A91D779E130C2A8B005490C5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A91D779F130C2A8B005490C5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A942E8E813055D4700344858 /* plan.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = plan.rtf; sourceTree = "<group>"; };
+		A976C1E3130D2F68005ADD42 /* Multi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Multi.png; sourceTree = "<group>"; };
+		A976C1E4130D2F68005ADD42 /* Multi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Multi@2x.png"; sourceTree = "<group>"; };
+		A9804638130D0A65008191FE /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		A9804639130D0A65008191FE /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		A980463C130D0AA2008191FE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A9804640130D0ABF008191FE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A9875EF61EF6AEB400C3F016 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		A9875EF81EF6AFC500C3F016 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		A9A1658E1302E30B000E74AE /* HighScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreKeeper.h; sourceTree = "<group>"; };
+		A9A1658F1302E30B000E74AE /* HighScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreKeeper.m; sourceTree = "<group>"; };
+		A9ACD98F1302D3400008033C /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoreViewController.h; path = ../HighScoreViewController.h; sourceTree = "<group>"; };
+		A9ACD9901302D3400008033C /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoreViewController.m; path = ../HighScoreViewController.m; sourceTree = "<group>"; };
+		A9ACD9911302D3400008033C /* HighScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighScoreViewController.xib; sourceTree = "<group>"; };
+		A9B6DC3B130D230B00DB8248 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				A980463D130D0AA2008191FE /* CFNetwork.framework in Frameworks */,
+				A9804641130D0ABF008191FE /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MultAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MultAppDelegate.m */,
+				A912293812FFFD1A00D44DBD /* Brain.h */,
+				A912293912FFFD1A00D44DBD /* Brain.m */,
+				A912293A12FFFD1A00D44DBD /* Calculation.h */,
+				A912293B12FFFD1A00D44DBD /* Calculation.m */,
+				A912293C12FFFD1A00D44DBD /* FrontViewController.h */,
+				A912293D12FFFD1A00D44DBD /* FrontViewController.m */,
+				A9ACD98F1302D3400008033C /* HighScoreViewController.h */,
+				A9ACD9901302D3400008033C /* HighScoreViewController.m */,
+				A90C36DD1303D44B008741BB /* HighScoreAddViewController.h */,
+				A90C36DE1303D44B008741BB /* HighScoreAddViewController.m */,
+				A912299B1300124C00D44DBD /* QViewController.h */,
+				A912299C1300124C00D44DBD /* QViewController.m */,
+				A912294112FFFD1A00D44DBD /* TimeKeeper.h */,
+				A912294212FFFD1A00D44DBD /* TimeKeeper.m */,
+				A9A1658E1302E30B000E74AE /* HighScoreKeeper.h */,
+				A9A1658F1302E30B000E74AE /* HighScoreKeeper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Multi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Multi_Prefix.pch */,
+				A9804638130D0A65008191FE /* GANTracker.h */,
+				A9804639130D0A65008191FE /* libGoogleAnalytics.a */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A91D7799130C2A8B005490C5 /* images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				A912299D1300124C00D44DBD /* QViewController.xib */,
+				A912293E12FFFD1A00D44DBD /* FrontViewController.xib */,
+				A90C36DF1303D44B008741BB /* HighScoreAddViewController.xib */,
+				A9ACD9911302D3400008033C /* HighScoreViewController.xib */,
+				8D1107310486CEB800E47090 /* Multi-Info.plist */,
+				A942E8E813055D4700344858 /* plan.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				A980463C130D0AA2008191FE /* CFNetwork.framework */,
+				A9804640130D0ABF008191FE /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A91D7799130C2A8B005490C5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A9875EF81EF6AFC500C3F016 /* Media.xcassets */,
+				A9875EF61EF6AEB400C3F016 /* LaunchImage.png */,
+				A9B6DC3B130D230B00DB8248 /* iTunesArtwork */,
+				A91D779A130C2A8B005490C5 /* Icon-72.png */,
+				A91D779B130C2A8B005490C5 /* Icon-Small-50.png */,
+				A976C1E3130D2F68005ADD42 /* Multi.png */,
+				A976C1E4130D2F68005ADD42 /* Multi@2x.png */,
+				A91D779C130C2A8B005490C5 /* Icon-Small.png */,
+				A91D779D130C2A8B005490C5 /* Icon-Small@2x.png */,
+				A91D779E130C2A8B005490C5 /* Icon.png */,
+				A91D779F130C2A8B005490C5 /* Icon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Multi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Multi" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multi;
+			productName = Mult;
+			productReference = 1D6058910D05DD3D006BFB54 /* Multi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 4JC622DA4Z;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Multi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Multi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				A912294612FFFD1A00D44DBD /* FrontViewController.xib in Resources */,
+				A9875EF71EF6AEB400C3F016 /* LaunchImage.png in Resources */,
+				A9875EF91EF6AFC500C3F016 /* Media.xcassets in Resources */,
+				A912299F1300124C00D44DBD /* QViewController.xib in Resources */,
+				A9ACD9931302D3400008033C /* HighScoreViewController.xib in Resources */,
+				A90C36E11303D44B008741BB /* HighScoreAddViewController.xib in Resources */,
+				A91D77A1130C2A8B005490C5 /* Icon-72.png in Resources */,
+				A91D77A2130C2A8B005490C5 /* Icon-Small-50.png in Resources */,
+				A91D77A3130C2A8B005490C5 /* Icon-Small.png in Resources */,
+				A91D77A4130C2A8B005490C5 /* Icon-Small@2x.png in Resources */,
+				A91D77A5130C2A8B005490C5 /* Icon.png in Resources */,
+				A91D77A6130C2A8B005490C5 /* Icon@2x.png in Resources */,
+				A9B6DC3C130D230B00DB8248 /* iTunesArtwork in Resources */,
+				A976C1E5130D2F68005ADD42 /* Multi.png in Resources */,
+				A976C1E6130D2F68005ADD42 /* Multi@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MultAppDelegate.m in Sources */,
+				A912294312FFFD1A00D44DBD /* Brain.m in Sources */,
+				A912294412FFFD1A00D44DBD /* Calculation.m in Sources */,
+				A912294512FFFD1A00D44DBD /* FrontViewController.m in Sources */,
+				A912294812FFFD1A00D44DBD /* TimeKeeper.m in Sources */,
+				A912299E1300124C00D44DBD /* QViewController.m in Sources */,
+				A9ACD9921302D3400008033C /* HighScoreViewController.m in Sources */,
+				A9A165901302E30B000E74AE /* HighScoreKeeper.m in Sources */,
+				A90C36E01303D44B008741BB /* HighScoreAddViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4JC622DA4Z;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multi_Prefix.pch;
+				INFOPLIST_FILE = "Multi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.parnes.multi;
+				PRODUCT_NAME = Multi;
+				PROVISIONING_PROFILE = "91fb454a-9ba1-4da1-8bf2-718441b36994";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev wildcard";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4JC622DA4Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multi_Prefix.pch;
+				INFOPLIST_FILE = "Multi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.parnes.multi;
+				PRODUCT_NAME = Multi;
+				PROVISIONING_PROFILE = "91fb454a-9ba1-4da1-8bf2-718441b36994";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev wildcard";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9EB7AA2130C3E5000619EE8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Peter Parnes";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		A9EB7AA3130C3E5000619EE8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4JC622DA4Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multi_Prefix.pch;
+				INFOPLIST_FILE = "Multi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.parnes.multi;
+				PRODUCT_NAME = Multi;
+				PROVISIONING_PROFILE = "32ec5ab0-b4dc-4226-8a30-eded548ef550";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = Multi;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Multi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				A9EB7AA3130C3E5000619EE8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Multi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				A9EB7AA2130C3E5000619EE8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

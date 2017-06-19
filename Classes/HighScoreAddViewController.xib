@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HighScoreAddViewController">
+            <connections>
+                <outlet property="button" destination="7" id="11"/>
+                <outlet property="nameLabel" destination="8" id="12"/>
+                <outlet property="textField" destination="6" id="10"/>
+                <outlet property="textView" destination="5" id="9"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="top" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Grattis! Du kom in på topplistan med tiden 117.3s." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="243"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Vad heter du? " textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="90" y="243" width="234" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="dFJ-8M-XJL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Peppar" borderStyle="roundedRect" textAlignment="center" minimumFontSize="36" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="90" y="294" width="234" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="C9O-Ow-2Ph"/>
+                    </constraints>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                    <connections>
+                        <action selector="editingDidEnd:" destination="-1" eventType="primaryActionTriggered" id="vx7-MG-Ecv"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="168" y="350" width="78" height="59"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="59" id="05L-id-inR"/>
+                        <constraint firstAttribute="width" constant="78" id="QEa-F9-9Ic"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
+                    <state key="normal" title="OK">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addPressed:" destination="-1" eventType="touchUpInside" id="13"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="0.83999999999999997" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="4np-T8-zB5"/>
+                <constraint firstItem="8" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" id="EOg-th-Rsa"/>
+                <constraint firstItem="7" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="GVc-Rj-y9J"/>
+                <constraint firstItem="6" firstAttribute="centerX" secondItem="7" secondAttribute="centerX" id="NCI-Zh-HLB"/>
+                <constraint firstItem="6" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="SR7-P5-7Q0"/>
+                <constraint firstItem="5" firstAttribute="top" secondItem="1" secondAttribute="top" id="bWO-er-N7g"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="5" secondAttribute="bottom" id="f3E-GA-i2R"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="1" secondAttribute="top" constant="243" id="hNO-zA-IXS"/>
+                <constraint firstItem="6" firstAttribute="top" secondItem="8" secondAttribute="bottom" constant="8" symbolic="YES" id="iLd-T1-9zk"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="8" symbolic="YES" id="nND-1G-Ou9"/>
+                <constraint firstItem="8" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="ngV-EN-tJa"/>
+                <constraint firstItem="7" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="oub-KO-wKE"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="v8m-tD-Zr2"/>
+                <constraint firstItem="6" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="xmY-FA-c9v"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="23" y="50"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina5_5.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
